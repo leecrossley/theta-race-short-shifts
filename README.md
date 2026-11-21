@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24410822.svg)](https://doi.org/10.5281/zenodo.24410822)
 
+This result is now maintained in [theta-host-split-inert-race](https://github.com/leecrossley/theta-host-split-inert-race/tree/main/results/theta-race-short-shifts). This repository is archived and keeps its releases and DOI.
+
 On the 547/727 theta-lift host, the normalized lead can rise or fall by more than **1.9735 times the logarithmic distance moved**. This happens arbitrarily far out, for every fixed window width and every fixed move up to a doubling. The same bound holds for the instantaneous logarithmic slope and for averages over widths and moves.
 
 Let $K=\mathbf Q(\zeta_{16}+\zeta_{16}^{-1})$, $F=K(\sqrt{397669})$ and $E=K(\sqrt{-547},\sqrt{-727})$, where $397669=547\cdot727$. Count prime ideals of the degree-eight field $F$. For each prime $v$, write $\epsilon(v)=1$ for split and $-1$ for inert in $E/F$. At a good prime, the product of normalized first-step theta trace jumps above $v$ equals $\epsilon(v)$. The concrete admissible datum and the degrees of both fields are checked in Lean. [Field and character frame](SecondField.lean) · [Trace identity](RaceTrace.lean)
